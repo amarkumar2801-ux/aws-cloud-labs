@@ -1,0 +1,68 @@
+ # AWS IAM Lab
+
+## Objective
+
+Learn how to create and manage AWS Identity and Access Management (IAM) resources, including IAM Users, Groups, Roles, and Policies to provide secure access to AWS services.
+
+---
+
+## AWS Services Used
+
+- AWS IAM
+
+---
+
+## Prerequisites
+
+- AWS Account
+- IAM Console Access
+
+---
+
+## Architecture
+
+This lab demonstrates how an IAM User receives permissions through an IAM Group and how an IAM Role provides temporary permissions to AWS services.
+
+---
+
+## Implementation Steps
+
+1. Open the AWS Management Console.
+2. Navigate to IAM.
+3. Create an IAM User.
+4. Create an IAM Group.
+5. Attach the **AmazonS3ReadOnlyAccess** policy to the group.
+6. Add the IAM User to the group.
+7. Create an IAM Role for an AWS service (for example, EC2).
+8. Attach the required IAM Policy to the role.
+9. Verify permissions by accessing AWS resources.
+
+---
+
+## Validation
+
+- IAM User successfully created.
+- IAM Group created.
+- Policy attached successfully.
+- User added to the group.
+- IAM Role created and attached.
+
+---
+
+## Screenshots
+
+- IAM Dashboard
+- IAM User Creation
+- IAM Group
+- IAM Policy Attachment
+- IAM Role
+- Final Result
+
+---
+
+## Key Learnings
+
+- Difference between IAM Users, Groups, Roles, and Policies.
+- How permissions are assigned using IAM Policies.
+- Why IAM Roles are preferred for AWS services.
+- Principle of Least Privilege.
